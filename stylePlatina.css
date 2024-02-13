@@ -1,0 +1,452 @@
+
+*{
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+}
+
+.Wrapper{
+	padding:50px 45px;
+}
+
+/*NAVIGATION SECTION START */
+
+.navbar{
+  display: flex; 
+  justify-content: space-between;
+  align-items: center; 
+  padding: 6px 0px;
+}
+
+.nav-logo>img{
+	height: 35px;
+	width: 85px;
+	margin-left: 140px;
+}
+
+.nav-logo>img:hover{
+	transition: all 4s ease-in 0s;
+	transform: translateX(570px); 
+}
+
+.nav-Menu{
+	margin-right: 160px;
+}
+
+.nav-Menu ul li{
+   display:inline;
+   font-size: 11px;
+   margin-left: 30px;
+}
+
+.nav-Menu ul li:hover{
+   font-size: 20px;
+   color: black;
+   cursor: pointer;
+}
+
+
+
+/*ENJOY HOLIDAY SECTION START*/
+
+.banner-img{
+	width: 100%;
+	height: 520px;
+	background-image:url('Platinaimages/banner.jpeg');
+}
+.banner-img h1{  
+	font-size: 35px; 
+	text-align: center; 
+	padding-top: 170px;
+	position: relative;
+	z-index: 4;
+
+
+}
+.banner-img .search{
+	  background-color: white;
+	  width: 138px;
+	  height: 28px;
+	  margin-left: 552px;
+    font-size: 13px;
+    line-height: 28px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 55px;
+}
+
+ .pinki{
+ 	width: 100%;
+	height: 520px;
+	z-index: 3;
+	position: relative; 
+	background-image: linear-gradient(to bottom,blue,white);
+	opacity: 0.8;
+
+ }
+ .pinki:hover{
+ 		background-image: linear-gradient(to bottom,white,blue);
+ 		 
+
+ }
+ .pinki h1{
+   color: white;
+ }
+
+ 
+/*SUPERB FACILITY SECTION START*/
+
+.superFacility{
+	margin-top: 80px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.superFacility>h1{
+	font-size: 30px;
+	letter-spacing: 2px;
+}
+
+.superFacility p{ 
+	width: 600px;
+	text-align: center;
+	margin-top: 20px;
+	color: rgb(152, 152, 150);
+}
+
+
+/*THREE PHOTOS SECTION START*/
+
+.Threephotos{
+	display: flex;
+	margin-top: 40px;
+	justify-content: center;
+}
+
+.Threephotos img{
+	width: 320px;
+	height: 400px;
+	margin-left: 30px;
+}
+
+.Threephotos img:hover{
+ transform: scale(0.5);
+ transition: all 1s ease-in 0s;
+}
+
+/*KEY DOOR SECTION START*/
+
+.KEY-DOOR{
+	margin-top: 60px;
+	width: 100%;
+	height: 480px;
+	background-color: green;
+	display: flex; 
+}
+
+.door>img{
+width: 629.5px; 
+height: 490px;
+}
+
+.Blackbox{ 
+	width: 629.5px; 
+	height: 490px;
+	background-color: rgb(33, 36, 41);
+	padding-top: 100px;
+	padding-left: 50px; 
+}
+
+.Blackbox h3{
+  color: white;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.Blackbox p{
+  color: rgb(90, 91, 94); 
+  width: 350px;
+}
+
+.package{
+	width: 210px;
+	height: 35px; 
+	color: white;
+	font-size: 11px;
+    border-radius: 22px;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 42px;
+    border: 1px solid rgb(77,78,81);
+    background-color: rgb(33, 36, 41);
+}
+
+
+
+/*SUPERB FACILITY SECTION START*/
+
+.superFacility{
+	margin-top: 80px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.superFacility>h1{
+	font-size: 30px;
+	letter-spacing: 1px;
+}
+
+.superFacility p{ 
+	width: 600px;
+	text-align: center;
+	margin-top: 20px;
+	color: rgb(152, 152, 150);
+}
+
+
+
+/*OFFER PACKAGE SECTION START*/
+
+.offerPackage{ 
+	display: grid;
+	grid-template-columns: repeat(3, 355px);
+	grid-template-rows: repeat(2, 150px);
+	justify-content: center;
+	margin-left: 50px;
+	margin-top: 50px;
+} 
+
+.icon {
+	margin-bottom: 13px;
+}
+
+.flight1 p{
+	margin-top: 13px;
+	color:gray;
+	font-size: 14px;
+}
+
+.fa-pencil{
+	font-size: 27px;
+}
+.hotel1 div i{
+  margin-bottom: 20px;
+}
+
+.hotel1 p{
+  margin-top: 13px;
+	color:gray;
+	font-size: 14px;
+}
+
+.fa-gift{
+	font-size: 27px;
+}
+.leftBox{
+	margin-right: 40px;
+
+}
+.middBox{
+	margin-right: 40px;  
+}
+.yes{
+	font-size: 28px;
+	margin-top: 5px;
+}
+
+.jimi h4{
+	margin-top: 30px;
+}
+
+
+/*photoGallry SECTION START*/
+
+.photoGallry{
+	margin-top: 100px;
+	height: 250px;
+	width: 100%;
+	border: 2px solid black;
+	background-color: black;
+}
+.galleryCont{
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto;
+}
+.galleryCont img{
+height: 250px;
+	width: 100%;
+}
+.galleryCont img:hover{
+ transform: scale(0.5);
+ transition: all 1s ease-in 0s;
+}
+
+/*BOOKROOM SECTION START*/
+
+.roomBox{
+	margin-top: 80px;
+}
+.BookRoom{
+	width: 70%;
+	margin: 0px auto;
+	border: 2px solid black;
+	height: 540px;
+}
+
+.subSectionOf-room{
+	display: flex;
+	margin-top: 50px; 
+	justify-content: center;
+}
+
+.tablvro input{
+	margin-top: 17px;
+	height: 25px;
+	margin-right: 15px;
+	border: 2px solid rgb(230, 230, 230);
+}
+.tablvro select{
+	width: 173px;
+	margin-top: 17px; 
+	height: 25px;
+	margin-right: 15px;
+	border: 2px solid rgb(230, 230, 230);
+	color: rgb(117, 117, 117);
+}
+.rightIntable textarea{
+	height: 157px;
+	margin-top: 19px;
+	width: 190px;
+	border: 2px solid rgb(230, 230, 230);
+}
+.boobutton button{ 
+	display: flex;
+	height: 35px; 
+	width: 170px;
+	background-image: linear-gradient(to bottom,rgb(248, 162, 114),rgb(246, 62, 112));
+	color: white;
+	justify-content: space-evenly;
+	align-items: center;
+	font-size: 11px;
+	margin: 15px auto;
+	border-radius: 20px;
+}
+
+.boobutton button i{ 
+	 margin-right: 20px;
+}
+
+
+
+/* CONTACT US SECTION START*/
+
+.contaInfo{ 
+		width: 100%;
+		height: 100px;
+		margin-top: 150px;
+		display: flex;
+		justify-content: space-between;
+}
+.contaInfo h3{
+  margin-bottom: 10px;  
+}
+.contaInfo p{
+  color: gray;
+}
+
+.meo{ 
+	width: 300px;
+	height: 100px;
+	text-align: center;
+
+}
+
+
+
+/*footer SECTION START*/
+
+.footeContainer{
+	margin-top: 70px;
+   width: 100%;
+   height: 370px;
+   background-color: rgb(34, 34, 34);
+}
+
+.footer{
+	
+   display: flex;
+   justify-content: space-evenly;
+   
+}
+.footer h3{
+	color: white;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+ 
+.boxer{
+	margin-top: 80px;
+	width: 235px;
+	height: 130px; 
+  color: gray;
+}
+ 
+.newsletter input{
+  background-color: rgb(25, 25, 25);
+  color: white;
+  margin-top: 20px;
+  width: 161px;
+  height: 30px;
+}
+
+.arrow{
+	width: 30px;
+	height: 30px;
+	font-size: 20px;
+	background-image: linear-gradient(to bottom,rgb(248, 162, 114),rgb(246, 62, 112));
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	top: -31px;
+	right: -130px;
+}
+.fa-arrow-right{
+  color: black;
+}
+
+.copyrt p{
+	 margin-top: 60px;
+	 color: gray;
+	 text-align: center;
+}
+
+
+.instagram {
+   display: grid;
+   grid-template-columns: repeat(4,45px);
+   grid-template-rows: repeat(2,47px);
+   grid-gap: 3px;
+   margin-left: 10px;
+}
+
+.instagram div img{
+  height: 47px;
+  width: 45px;
+}
+ 
+
+.social-Platform{ 
+	display: flex;
+	margin-top: 10px; 
+}
+
+.iconn{
+	margin-left: 17px;
+	color: white;
+}
+ 
+
+ 
